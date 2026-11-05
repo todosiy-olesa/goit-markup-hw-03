@@ -1,11 +1,12 @@
 /*Clobal styles*/
 body {
   font-family: 'Roboto', sans-serif;
+  max-width: 1140px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   color: #434455;
   background-color: #fff;
@@ -66,7 +67,8 @@ img {
 }
 .container {
   max-width: 1158px;
-  padding-inline: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 .logo {
