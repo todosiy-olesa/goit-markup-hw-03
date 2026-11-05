@@ -1,12 +1,13 @@
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header .container {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  gap: 76px;
 }
 .logo {
   font-family: 'Raleway', sans-serif;
-
   color: #2e2f42;
 }
 .accent {
@@ -35,6 +36,7 @@
   color: #404bbf;
 }
 .contacts {
+  margin-left: auto;
   font-style: normal;
 }
 .contacts-list {

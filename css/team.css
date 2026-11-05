@@ -4,6 +4,9 @@
   overflow: hidden;
   background-color: #f4f4fd;
 }
+.team-card-content {
+  padding: 32px;
+}
 
 .team-title {
   font-weight: 700;
@@ -33,15 +36,12 @@
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
-  margin-top: 32px;
-  margin-bottom: 8px;
-
   text-align: center;
+  margin-bottom: 8px;
 }
 .team-item-text {
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  margin-bottom: 32px;
   color: #434455;
 }
