@@ -1,18 +1,35 @@
-.hero-title {
+.hero {
+}
+.hero-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #2e2f42;
+}
+.title {
+  margin-bottom: 48px;
+  margin-top: 118px;
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  color: #fff;
 }
-.hero-button {
+.button {
+  margin-bottom: 118px;
+  display: block;
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
+  max-width: 169px;
   font-weight: 500;
   letter-spacing: 0.04em;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
-  color: #fff;
 }
-.hero-button:hover,
-.hero-button:focus {
-  background-color: #404bbf;
+.button:hover,
+.button:focus {
+  color: #404bbf;
 }
