@@ -1,15 +1,15 @@
 .hero {
+  padding: 188px 0;
   background: #2e2f42;
 }
 .hero-container {
-  height: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 100px 0;
   gap: 48px;
+  padding: 0;
 }
 
 .title {
@@ -19,6 +19,7 @@
   text-align: center;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 0;
 }
 .button {
   border: none;
